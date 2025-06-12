@@ -1,4 +1,4 @@
-#include "Interactables/HidingSpot.h"
+#include "Horror/Interactables/HidingSpot.h"
 #include "Components/BoxComponent.h"
 
 AHidingSpot::AHidingSpot()
