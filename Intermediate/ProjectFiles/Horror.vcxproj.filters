@@ -11,6 +11,9 @@
     <None Include="..\..\Source\HorrorEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,11 +35,83 @@
     <None Include="..\..\Source\Horror\Horror.Build.cs">
       <Filter>Source\Horror</Filter>
     </None>
-    <ClCompile Include="..\..\Source\Horror\Horror.cpp">
-      <Filter>Source\Horror</Filter>
+    <Filter Include="Source\Horror\Private">
+      <UniqueIdentifier>{3A918380-1940-32B4-9C77-1B87A97A187A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Horror\Private\Horror.cpp">
+      <Filter>Source\Horror\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Horror\Horror.h">
-      <Filter>Source\Horror</Filter>
+    <Filter Include="Source\Horror\Private\Game">
+      <UniqueIdentifier>{18A04DAF-068E-3430-A563-E93F703530AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Horror\Private\Game\HorrorGameMode.cpp">
+      <Filter>Source\Horror\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\Horror\Private\HUD">
+      <UniqueIdentifier>{828C30C4-6978-3591-ABEF-43ED37AA4AEB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Horror\Private\HUD\MenuHUD.cpp">
+      <Filter>Source\Horror\Private\HUD</Filter>
+    </ClCompile>
+    <Filter Include="Source\Horror\Private\Interactables">
+      <UniqueIdentifier>{0DAF1AC9-EDC4-374C-B428-2EA89F4475EB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Horror\Private\Interactables\HidingSpot.cpp">
+      <Filter>Source\Horror\Private\Interactables</Filter>
+    </ClCompile>
+    <Filter Include="Source\Horror\Private\Monster">
+      <UniqueIdentifier>{CBD0007B-94B2-3C6C-883B-947C76AC9C01}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Horror\Private\Monster\HorrorMonsterCharacter.cpp">
+      <Filter>Source\Horror\Private\Monster</Filter>
+    </ClCompile>
+    <Filter Include="Source\Horror\Private\Player">
+      <UniqueIdentifier>{35E6B26C-9D6F-3AE3-96F6-7EC045615F40}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Horror\Private\Player\HorrorPlayerCharacter.cpp">
+      <Filter>Source\Horror\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\Horror\Public">
+      <UniqueIdentifier>{FAE3EF83-4A2A-39DD-ABE6-F4FF4A37EA1F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\Horror.h">
+      <Filter>Source\Horror\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Horror\Public\Game">
+      <UniqueIdentifier>{6A8FECCD-6CC4-3BCA-8A00-D553CC0A2F46}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\Game\HorrorGameMode.h">
+      <Filter>Source\Horror\Public\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Horror\Public\HUD">
+      <UniqueIdentifier>{3A5D84E8-F387-3C2D-9DCE-AE79311069E7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\HUD\MenuHUD.h">
+      <Filter>Source\Horror\Public\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Source\Horror\Public\Interactables">
+      <UniqueIdentifier>{963D09D5-94DA-3E00-B71D-BFD259F76238}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\Interactables\HidingSpot.h">
+      <Filter>Source\Horror\Public\Interactables</Filter>
+    </ClInclude>
+    <Filter Include="Source\Horror\Public\Monster">
+      <UniqueIdentifier>{51524A9C-BC34-3908-B65E-227127443E06}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\Monster\HorrorMonsterCharacter.h">
+      <Filter>Source\Horror\Public\Monster</Filter>
+    </ClInclude>
+    <Filter Include="Source\Horror\Public\Player">
+      <UniqueIdentifier>{248C21A9-1721-3325-9587-F1B78D880984}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\Player\HorrorPlayerCharacter.h">
+      <Filter>Source\Horror\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\Horror\Public\UI">
+      <UniqueIdentifier>{35ECD9BC-9C61-3FC5-9156-72B1D8306C61}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Horror\Public\UI\MenuWidget.h">
+      <Filter>Source\Horror\Public\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
