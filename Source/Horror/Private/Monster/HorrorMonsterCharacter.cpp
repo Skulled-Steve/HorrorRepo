@@ -1,6 +1,6 @@
-#include "Horror/Monster/HorrorMonsterCharacter.h"
+#include "Horror/Public/Monster/HorrorMonsterCharacter.h"
 #include "Perception/PawnSensingComponent.h"
-#include "Horror/Player/HorrorPlayerCharacter.h"
+#include "Horror/Public/Player/HorrorPlayerCharacter.h"
 #include "Kismet/GameplayStatics.h"
 
 AHorrorMonsterCharacter::AHorrorMonsterCharacter()

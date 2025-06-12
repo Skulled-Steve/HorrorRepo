@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Steph/Desktop/Game/HorrorRepo/Content/Levels/00_Test.umap",
+				"C:/Users/Steph/Desktop/Game/HorrorRepo/Content/Player/Player_BP.uasset",
+				"C:/Users/Steph/Desktop/Game/HorrorRepo/Content/FrameWork/BP_Horror.uasset"
+			]
+		}
+	]
+}

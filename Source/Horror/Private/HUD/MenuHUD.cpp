@@ -1,5 +1,5 @@
-#include "Horror/HUD/MenuHUD.h"
-#include "Horror/UI/MenuWidget.h"
+#include "Horror/Public/HUD/MenuHUD.h"
+#include "Horror/Public/UI/MenuWidget.h"
 #include "Blueprint/UserWidget.h"
 
 void AMenuHUD::BeginPlay()

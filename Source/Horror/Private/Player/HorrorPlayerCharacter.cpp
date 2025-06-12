@@ -1,6 +1,7 @@
-#include "Horror/Player/HorrorPlayerCharacter.h"
+#include "Horror/Public/Player/HorrorPlayerCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/CapsuleComponent.h"
 
 AHorrorPlayerCharacter::AHorrorPlayerCharacter()
 {
