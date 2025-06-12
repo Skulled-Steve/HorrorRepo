@@ -1,6 +1,6 @@
-#include "Horror/Game/HorrorGameMode.h"
-#include "Horror/Player/HorrorPlayerCharacter.h"
-#include "Horror/HUD/MenuHUD.h"
+#include "Horror/Public/Game/HorrorGameMode.h"
+#include "Horror/Public/Player/HorrorPlayerCharacter.h"
+#include "Horror/Public/HUD/MenuHUD.h"
 #include "UObject/ConstructorHelpers.h"
 
 AHorrorGameMode::AHorrorGameMode()
