@@ -11,12 +11,7 @@ public class Horror : ModuleRules
 
                 PublicIncludePaths.AddRange(new string[]
                 {
-                        Path.Combine(ModuleDirectory, "Game"),
-                        Path.Combine(ModuleDirectory, "HUD"),
-                        Path.Combine(ModuleDirectory, "Interactables"),
-                        Path.Combine(ModuleDirectory, "Monster"),
-                        Path.Combine(ModuleDirectory, "Player"),
-                        Path.Combine(ModuleDirectory, "UI")
+                        Path.Combine(ModuleDirectory, "Public")
                 });
 	
                 PublicDependencyModuleNames.AddRange(new string[]

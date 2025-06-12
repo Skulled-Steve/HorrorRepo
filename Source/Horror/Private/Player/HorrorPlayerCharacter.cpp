@@ -1,4 +1,4 @@
-#include "Player/HorrorPlayerCharacter.h"
+#include "Horror/Player/HorrorPlayerCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 
