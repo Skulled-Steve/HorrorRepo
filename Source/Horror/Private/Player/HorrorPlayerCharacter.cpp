@@ -2,6 +2,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 AHorrorPlayerCharacter::AHorrorPlayerCharacter()
 {
@@ -10,6 +11,10 @@ AHorrorPlayerCharacter::AHorrorPlayerCharacter()
     CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
     CameraComp->SetupAttachment(GetCapsuleComponent());
     CameraComp->bUsePawnControlRotation = true;
+
+    bUseControllerRotationYaw = true;
+    bUseControllerRotationPitch = true;
+    GetCharacterMovement()->bOrientRotationToMovement = false;
 
     bIsHidden = false;
 }
