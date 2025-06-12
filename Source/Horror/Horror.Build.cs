@@ -1,12 +1,23 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
+using System.IO;
 
 public class Horror : ModuleRules
 {
 	public Horror(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        {
+                PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+                PublicIncludePaths.AddRange(new string[]
+                {
+                        Path.Combine(ModuleDirectory, "Game"),
+                        Path.Combine(ModuleDirectory, "HUD"),
+                        Path.Combine(ModuleDirectory, "Interactables"),
+                        Path.Combine(ModuleDirectory, "Monster"),
+                        Path.Combine(ModuleDirectory, "Player"),
+                        Path.Combine(ModuleDirectory, "UI")
+                });
 	
                 PublicDependencyModuleNames.AddRange(new string[]
                 {
