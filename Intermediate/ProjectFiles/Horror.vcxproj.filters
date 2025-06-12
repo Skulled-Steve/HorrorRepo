@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Horror.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Horror.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HorrorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Horror">
+      <UniqueIdentifier>{0D6B27BC-7BD8-3189-807C-A864A8006A6A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Horror\Horror.Build.cs">
+      <Filter>Source\Horror</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Horror\Horror.cpp">
+      <Filter>Source\Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Horror\Horror.h">
+      <Filter>Source\Horror</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
